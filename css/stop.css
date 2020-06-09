@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50vh;
+    background-color: violet;
+}
+
+#sctext {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+#finalScore {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    border-left: 50%;
+    border-right: 50%;
+}
+
+.final button {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: medium;
+    border-radius: 100px;
+    border: none;
+    background-color: antiquewhite;
+    font-size: 25px;
+    transition: transform 0.1s;
+    outline: none;
+    margin-top: 10px;
+}
+
+.final button:hover {
+    background-color: green;
+    transform: scale(1.5);
+    cursor: pointer;
+    font-family: cursive;
+}

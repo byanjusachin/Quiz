@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="game" class="quizMain">
+            <div id="NAV">
+                <div id="NAV-item">
+                    <p class="NAV-prefix">
+                        Score
+                    </p>
+                    <h1 class="NAV-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+                <div id="NAV-item">
+                    <p class="NAV-prefix">
+                        Question
+                    </p>
+                    <h1 class="NAV-main-text" id="currentQuestion">
+                        1/4
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">What is the answer to this questions?</h2>
+            <div class="options">
+                <p class="optionsNum">A</p>
+                <p class="optionsAnswer" data-number="1">Choice 1</p>
+            </div>
+            <div class="options">
+                <p class="optionsNum">B</p>
+                <p class="optionsAnswer" data-number="2">Choice 2</p>
+            </div>
+            <div class="options">
+                <p class="optionsNum">C</p>
+                <p class="optionsAnswer" data-number="3">Choice 3</p>
+            </div>
+            <div class="options">
+                <p class="optionsNum">D</p>
+                <p class="optionsAnswer" data-number="4">Choice 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/quiz.js">
+    </script>
+</body>
+
+</html>

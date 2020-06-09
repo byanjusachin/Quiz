@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #411ee0b4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: x-large;
+}
+
+.container h2 {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 0;
+    width: 100vw;
+    border: solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+}
+
+.options:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: transform 150ms;
+    color: black;
+}
+
+.optionsNum {
+    padding: 10px 30px;
+    background-color: #411ee0b4;
+    color: white;
+}
+
+.optionsAnswer {
+    padding: 20px;
+    width: 100%;
+}
+
+#NAV {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: red;
+}
